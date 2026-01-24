@@ -8,15 +8,23 @@
       "appearance": "light",
       "style": {
         "accents": [
-          "#7c3ed466",
-          "#6a7cdf66",
-          "#298fa666",
-          "#42903766",
-          "#c1822c66",
-          "#da601e66",
-          "#b71c4366"
+          "#8839ef",
+          "#7287fd",
+          "#209fb5",
+          "#40a02b",
+          "#df8e1d",
+          "#fe640b",
+          "#d20f39"
         ],
         "vim.mode.text": "#dce0e8",
+        "vim.normal.foreground": "#dce0e8",
+        "vim.helix_normal.foreground": "#dce0e8",
+        "vim.visual.foreground": "#dce0e8",
+        "vim.helix_select.foreground": "#dce0e8",
+        "vim.insert.foreground": "#dce0e8",
+        "vim.visual_line.foreground": "#dce0e8",
+        "vim.visual_block.foreground": "#dce0e8",
+        "vim.replace.foreground": "#dce0e8",
         "vim.normal.background": "#dc8a78",
         "vim.helix_normal.background": "#dc8a78",
         "vim.visual.background": "#7287fd",
@@ -63,7 +71,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#ddeeff90",
-        "search.match_background": "#17929933",
+        "search.match_background": "#1792994d",
+        "search.active_match_background": "#d20f394d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#ccd0da99",
@@ -177,39 +186,39 @@
             "background": "#dc8a78"
           },
           {
-            "cursor": "#7c3ed4",
-            "selection": "#7c3ed44d",
-            "background": "#7c3ed4"
+            "cursor": "#8839ef",
+            "selection": "#8839ef4d",
+            "background": "#8839ef"
           },
           {
-            "cursor": "#6a7cdf",
-            "selection": "#6a7cdf4d",
-            "background": "#6a7cdf"
+            "cursor": "#7287fd",
+            "selection": "#7287fd4d",
+            "background": "#7287fd"
           },
           {
-            "cursor": "#298fa6",
-            "selection": "#298fa64d",
-            "background": "#298fa6"
+            "cursor": "#209fb5",
+            "selection": "#209fb54d",
+            "background": "#209fb5"
           },
           {
-            "cursor": "#429037",
-            "selection": "#4290374d",
-            "background": "#429037"
+            "cursor": "#40a02b",
+            "selection": "#40a02b4d",
+            "background": "#40a02b"
           },
           {
-            "cursor": "#c1822c",
-            "selection": "#c1822c4d",
-            "background": "#c1822c"
+            "cursor": "#df8e1d",
+            "selection": "#df8e1d4d",
+            "background": "#df8e1d"
           },
           {
-            "cursor": "#da601e",
-            "selection": "#da601e4d",
-            "background": "#da601e"
+            "cursor": "#fe640b",
+            "selection": "#fe640b4d",
+            "background": "#fe640b"
           },
           {
-            "cursor": "#b71c43",
-            "selection": "#b71c434d",
-            "background": "#b71c43"
+            "cursor": "#d20f39",
+            "selection": "#d20f394d",
+            "background": "#d20f39"
           }
         ],
         "version_control.added": "#40a02b",
@@ -335,6 +344,21 @@
           },
           "number.float": {
             "color": "#fe640b",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#1e66f5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -538,12 +562,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#179299",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#d20f39",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#df8e1d",
             "font_style": "italic",
             "font_weight": null
@@ -570,21 +604,6 @@
           },
           "diff.minus": {
             "color": "#d20f39",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#1e66f5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#df8e1d",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -726,15 +745,23 @@
       "appearance": "light",
       "style": {
         "accents": [
-          "#7c3ed466",
-          "#6a7cdf66",
-          "#298fa666",
-          "#42903766",
-          "#c1822c66",
-          "#da601e66",
-          "#b71c4366"
+          "#8839ef",
+          "#7287fd",
+          "#209fb5",
+          "#40a02b",
+          "#df8e1d",
+          "#fe640b",
+          "#d20f39"
         ],
         "vim.mode.text": "#dce0e8",
+        "vim.normal.foreground": "#dce0e8",
+        "vim.helix_normal.foreground": "#dce0e8",
+        "vim.visual.foreground": "#dce0e8",
+        "vim.helix_select.foreground": "#dce0e8",
+        "vim.insert.foreground": "#dce0e8",
+        "vim.visual_line.foreground": "#dce0e8",
+        "vim.visual_block.foreground": "#dce0e8",
+        "vim.replace.foreground": "#dce0e8",
         "vim.normal.background": "#dc8a78",
         "vim.helix_normal.background": "#dc8a78",
         "vim.visual.background": "#7287fd",
@@ -781,7 +808,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#ddeeffb0",
-        "search.match_background": "#17929933",
+        "search.match_background": "#1792994d",
+        "search.active_match_background": "#d20f394d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#ccd0da99",
@@ -895,39 +923,39 @@
             "background": "#dc8a78"
           },
           {
-            "cursor": "#7c3ed4",
-            "selection": "#7c3ed44d",
-            "background": "#7c3ed4"
+            "cursor": "#8839ef",
+            "selection": "#8839ef4d",
+            "background": "#8839ef"
           },
           {
-            "cursor": "#6a7cdf",
-            "selection": "#6a7cdf4d",
-            "background": "#6a7cdf"
+            "cursor": "#7287fd",
+            "selection": "#7287fd4d",
+            "background": "#7287fd"
           },
           {
-            "cursor": "#298fa6",
-            "selection": "#298fa64d",
-            "background": "#298fa6"
+            "cursor": "#209fb5",
+            "selection": "#209fb54d",
+            "background": "#209fb5"
           },
           {
-            "cursor": "#429037",
-            "selection": "#4290374d",
-            "background": "#429037"
+            "cursor": "#40a02b",
+            "selection": "#40a02b4d",
+            "background": "#40a02b"
           },
           {
-            "cursor": "#c1822c",
-            "selection": "#c1822c4d",
-            "background": "#c1822c"
+            "cursor": "#df8e1d",
+            "selection": "#df8e1d4d",
+            "background": "#df8e1d"
           },
           {
-            "cursor": "#da601e",
-            "selection": "#da601e4d",
-            "background": "#da601e"
+            "cursor": "#fe640b",
+            "selection": "#fe640b4d",
+            "background": "#fe640b"
           },
           {
-            "cursor": "#b71c43",
-            "selection": "#b71c434d",
-            "background": "#b71c43"
+            "cursor": "#d20f39",
+            "selection": "#d20f394d",
+            "background": "#d20f39"
           }
         ],
         "version_control.added": "#40a02b",
@@ -1053,6 +1081,21 @@
           },
           "number.float": {
             "color": "#fe640b",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#1e66f5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -1256,12 +1299,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#179299",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#d20f39",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#df8e1d",
             "font_style": "italic",
             "font_weight": null
@@ -1288,21 +1341,6 @@
           },
           "diff.minus": {
             "color": "#d20f39",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#1e66f5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#df8e1d",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -1444,15 +1482,23 @@
       "appearance": "light",
       "style": {
         "accents": [
-          "#7c3ed466",
-          "#6a7cdf66",
-          "#298fa666",
-          "#42903766",
-          "#c1822c66",
-          "#da601e66",
-          "#b71c4366"
+          "#8839ef",
+          "#7287fd",
+          "#209fb5",
+          "#40a02b",
+          "#df8e1d",
+          "#fe640b",
+          "#d20f39"
         ],
         "vim.mode.text": "#dce0e8",
+        "vim.normal.foreground": "#dce0e8",
+        "vim.helix_normal.foreground": "#dce0e8",
+        "vim.visual.foreground": "#dce0e8",
+        "vim.helix_select.foreground": "#dce0e8",
+        "vim.insert.foreground": "#dce0e8",
+        "vim.visual_line.foreground": "#dce0e8",
+        "vim.visual_block.foreground": "#dce0e8",
+        "vim.replace.foreground": "#dce0e8",
         "vim.normal.background": "#dc8a78",
         "vim.helix_normal.background": "#dc8a78",
         "vim.visual.background": "#7287fd",
@@ -1499,7 +1545,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#ddeeffd0",
-        "search.match_background": "#17929933",
+        "search.match_background": "#1792994d",
+        "search.active_match_background": "#d20f394d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#ccd0da99",
@@ -1613,39 +1660,39 @@
             "background": "#dc8a78"
           },
           {
-            "cursor": "#7c3ed4",
-            "selection": "#7c3ed44d",
-            "background": "#7c3ed4"
+            "cursor": "#8839ef",
+            "selection": "#8839ef4d",
+            "background": "#8839ef"
           },
           {
-            "cursor": "#6a7cdf",
-            "selection": "#6a7cdf4d",
-            "background": "#6a7cdf"
+            "cursor": "#7287fd",
+            "selection": "#7287fd4d",
+            "background": "#7287fd"
           },
           {
-            "cursor": "#298fa6",
-            "selection": "#298fa64d",
-            "background": "#298fa6"
+            "cursor": "#209fb5",
+            "selection": "#209fb54d",
+            "background": "#209fb5"
           },
           {
-            "cursor": "#429037",
-            "selection": "#4290374d",
-            "background": "#429037"
+            "cursor": "#40a02b",
+            "selection": "#40a02b4d",
+            "background": "#40a02b"
           },
           {
-            "cursor": "#c1822c",
-            "selection": "#c1822c4d",
-            "background": "#c1822c"
+            "cursor": "#df8e1d",
+            "selection": "#df8e1d4d",
+            "background": "#df8e1d"
           },
           {
-            "cursor": "#da601e",
-            "selection": "#da601e4d",
-            "background": "#da601e"
+            "cursor": "#fe640b",
+            "selection": "#fe640b4d",
+            "background": "#fe640b"
           },
           {
-            "cursor": "#b71c43",
-            "selection": "#b71c434d",
-            "background": "#b71c43"
+            "cursor": "#d20f39",
+            "selection": "#d20f394d",
+            "background": "#d20f39"
           }
         ],
         "version_control.added": "#40a02b",
@@ -1771,6 +1818,21 @@
           },
           "number.float": {
             "color": "#fe640b",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#1e66f5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -1974,12 +2036,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#179299",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#d20f39",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#df8e1d",
             "font_style": "italic",
             "font_weight": null
@@ -2006,21 +2078,6 @@
           },
           "diff.minus": {
             "color": "#d20f39",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#1e66f5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#df8e1d",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -2162,15 +2219,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#c6aaf666",
-          "#bac1f766",
-          "#8cc7e766",
-          "#add8a866",
-          "#e6d4b066",
-          "#ecb19766",
-          "#e696a966"
+          "#c6a0f6",
+          "#b7bdf8",
+          "#7dc4e4",
+          "#a6da95",
+          "#eed49f",
+          "#f5a97f",
+          "#ed8796"
         ],
         "vim.mode.text": "#181926",
+        "vim.normal.foreground": "#181926",
+        "vim.helix_normal.foreground": "#181926",
+        "vim.visual.foreground": "#181926",
+        "vim.helix_select.foreground": "#181926",
+        "vim.insert.foreground": "#181926",
+        "vim.visual_line.foreground": "#181926",
+        "vim.visual_block.foreground": "#181926",
+        "vim.replace.foreground": "#181926",
         "vim.normal.background": "#f4dbd6",
         "vim.helix_normal.background": "#f4dbd6",
         "vim.visual.background": "#b7bdf8",
@@ -2217,7 +2282,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#0a0a0a90",
-        "search.match_background": "#8bd5ca33",
+        "search.match_background": "#8bd5ca4d",
+        "search.active_match_background": "#ed87964d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#363a4f99",
@@ -2331,39 +2397,39 @@
             "background": "#f4dbd6"
           },
           {
-            "cursor": "#c6aaf6",
-            "selection": "#c6aaf640",
-            "background": "#c6aaf6"
+            "cursor": "#c6a0f6",
+            "selection": "#c6a0f640",
+            "background": "#c6a0f6"
           },
           {
-            "cursor": "#bac1f7",
-            "selection": "#bac1f740",
-            "background": "#bac1f7"
+            "cursor": "#b7bdf8",
+            "selection": "#b7bdf840",
+            "background": "#b7bdf8"
           },
           {
-            "cursor": "#8cc7e7",
-            "selection": "#8cc7e740",
-            "background": "#8cc7e7"
+            "cursor": "#7dc4e4",
+            "selection": "#7dc4e440",
+            "background": "#7dc4e4"
           },
           {
-            "cursor": "#add8a8",
-            "selection": "#add8a840",
-            "background": "#add8a8"
+            "cursor": "#a6da95",
+            "selection": "#a6da9540",
+            "background": "#a6da95"
           },
           {
-            "cursor": "#e6d4b0",
-            "selection": "#e6d4b040",
-            "background": "#e6d4b0"
+            "cursor": "#eed49f",
+            "selection": "#eed49f40",
+            "background": "#eed49f"
           },
           {
-            "cursor": "#ecb197",
-            "selection": "#ecb19740",
-            "background": "#ecb197"
+            "cursor": "#f5a97f",
+            "selection": "#f5a97f40",
+            "background": "#f5a97f"
           },
           {
-            "cursor": "#e696a9",
-            "selection": "#e696a940",
-            "background": "#e696a9"
+            "cursor": "#ed8796",
+            "selection": "#ed879640",
+            "background": "#ed8796"
           }
         ],
         "version_control.added": "#a6da95",
@@ -2489,6 +2555,21 @@
           },
           "number.float": {
             "color": "#f5a97f",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#8aadf4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -2692,12 +2773,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#8bd5ca",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#ed8796",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#eed49f",
             "font_style": "italic",
             "font_weight": null
@@ -2724,21 +2815,6 @@
           },
           "diff.minus": {
             "color": "#ed8796",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#8aadf4",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#eed49f",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -2880,15 +2956,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#c6aaf666",
-          "#bac1f766",
-          "#8cc7e766",
-          "#add8a866",
-          "#e6d4b066",
-          "#ecb19766",
-          "#e696a966"
+          "#c6a0f6",
+          "#b7bdf8",
+          "#7dc4e4",
+          "#a6da95",
+          "#eed49f",
+          "#f5a97f",
+          "#ed8796"
         ],
         "vim.mode.text": "#181926",
+        "vim.normal.foreground": "#181926",
+        "vim.helix_normal.foreground": "#181926",
+        "vim.visual.foreground": "#181926",
+        "vim.helix_select.foreground": "#181926",
+        "vim.insert.foreground": "#181926",
+        "vim.visual_line.foreground": "#181926",
+        "vim.visual_block.foreground": "#181926",
+        "vim.replace.foreground": "#181926",
         "vim.normal.background": "#f4dbd6",
         "vim.helix_normal.background": "#f4dbd6",
         "vim.visual.background": "#b7bdf8",
@@ -2935,7 +3019,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#0a0a0ab0",
-        "search.match_background": "#8bd5ca33",
+        "search.match_background": "#8bd5ca4d",
+        "search.active_match_background": "#ed87964d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#363a4f99",
@@ -3049,39 +3134,39 @@
             "background": "#f4dbd6"
           },
           {
-            "cursor": "#c6aaf6",
-            "selection": "#c6aaf640",
-            "background": "#c6aaf6"
+            "cursor": "#c6a0f6",
+            "selection": "#c6a0f640",
+            "background": "#c6a0f6"
           },
           {
-            "cursor": "#bac1f7",
-            "selection": "#bac1f740",
-            "background": "#bac1f7"
+            "cursor": "#b7bdf8",
+            "selection": "#b7bdf840",
+            "background": "#b7bdf8"
           },
           {
-            "cursor": "#8cc7e7",
-            "selection": "#8cc7e740",
-            "background": "#8cc7e7"
+            "cursor": "#7dc4e4",
+            "selection": "#7dc4e440",
+            "background": "#7dc4e4"
           },
           {
-            "cursor": "#add8a8",
-            "selection": "#add8a840",
-            "background": "#add8a8"
+            "cursor": "#a6da95",
+            "selection": "#a6da9540",
+            "background": "#a6da95"
           },
           {
-            "cursor": "#e6d4b0",
-            "selection": "#e6d4b040",
-            "background": "#e6d4b0"
+            "cursor": "#eed49f",
+            "selection": "#eed49f40",
+            "background": "#eed49f"
           },
           {
-            "cursor": "#ecb197",
-            "selection": "#ecb19740",
-            "background": "#ecb197"
+            "cursor": "#f5a97f",
+            "selection": "#f5a97f40",
+            "background": "#f5a97f"
           },
           {
-            "cursor": "#e696a9",
-            "selection": "#e696a940",
-            "background": "#e696a9"
+            "cursor": "#ed8796",
+            "selection": "#ed879640",
+            "background": "#ed8796"
           }
         ],
         "version_control.added": "#a6da95",
@@ -3207,6 +3292,21 @@
           },
           "number.float": {
             "color": "#f5a97f",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#8aadf4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -3410,12 +3510,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#8bd5ca",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#ed8796",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#eed49f",
             "font_style": "italic",
             "font_weight": null
@@ -3442,21 +3552,6 @@
           },
           "diff.minus": {
             "color": "#ed8796",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#8aadf4",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#eed49f",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -3598,15 +3693,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#c6aaf666",
-          "#bac1f766",
-          "#8cc7e766",
-          "#add8a866",
-          "#e6d4b066",
-          "#ecb19766",
-          "#e696a966"
+          "#c6a0f6",
+          "#b7bdf8",
+          "#7dc4e4",
+          "#a6da95",
+          "#eed49f",
+          "#f5a97f",
+          "#ed8796"
         ],
         "vim.mode.text": "#181926",
+        "vim.normal.foreground": "#181926",
+        "vim.helix_normal.foreground": "#181926",
+        "vim.visual.foreground": "#181926",
+        "vim.helix_select.foreground": "#181926",
+        "vim.insert.foreground": "#181926",
+        "vim.visual_line.foreground": "#181926",
+        "vim.visual_block.foreground": "#181926",
+        "vim.replace.foreground": "#181926",
         "vim.normal.background": "#f4dbd6",
         "vim.helix_normal.background": "#f4dbd6",
         "vim.visual.background": "#b7bdf8",
@@ -3653,7 +3756,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#0a0a0ad0",
-        "search.match_background": "#8bd5ca33",
+        "search.match_background": "#8bd5ca4d",
+        "search.active_match_background": "#ed87964d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#363a4f99",
@@ -3767,39 +3871,39 @@
             "background": "#f4dbd6"
           },
           {
-            "cursor": "#c6aaf6",
-            "selection": "#c6aaf640",
-            "background": "#c6aaf6"
+            "cursor": "#c6a0f6",
+            "selection": "#c6a0f640",
+            "background": "#c6a0f6"
           },
           {
-            "cursor": "#bac1f7",
-            "selection": "#bac1f740",
-            "background": "#bac1f7"
+            "cursor": "#b7bdf8",
+            "selection": "#b7bdf840",
+            "background": "#b7bdf8"
           },
           {
-            "cursor": "#8cc7e7",
-            "selection": "#8cc7e740",
-            "background": "#8cc7e7"
+            "cursor": "#7dc4e4",
+            "selection": "#7dc4e440",
+            "background": "#7dc4e4"
           },
           {
-            "cursor": "#add8a8",
-            "selection": "#add8a840",
-            "background": "#add8a8"
+            "cursor": "#a6da95",
+            "selection": "#a6da9540",
+            "background": "#a6da95"
           },
           {
-            "cursor": "#e6d4b0",
-            "selection": "#e6d4b040",
-            "background": "#e6d4b0"
+            "cursor": "#eed49f",
+            "selection": "#eed49f40",
+            "background": "#eed49f"
           },
           {
-            "cursor": "#ecb197",
-            "selection": "#ecb19740",
-            "background": "#ecb197"
+            "cursor": "#f5a97f",
+            "selection": "#f5a97f40",
+            "background": "#f5a97f"
           },
           {
-            "cursor": "#e696a9",
-            "selection": "#e696a940",
-            "background": "#e696a9"
+            "cursor": "#ed8796",
+            "selection": "#ed879640",
+            "background": "#ed8796"
           }
         ],
         "version_control.added": "#a6da95",
@@ -3925,6 +4029,21 @@
           },
           "number.float": {
             "color": "#f5a97f",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#8aadf4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -4128,12 +4247,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#8bd5ca",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#ed8796",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#eed49f",
             "font_style": "italic",
             "font_weight": null
@@ -4160,21 +4289,6 @@
           },
           "diff.minus": {
             "color": "#ed8796",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#8aadf4",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#eed49f",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -4316,15 +4430,23 @@
       "appearance": "light",
       "style": {
         "accents": [
-          "#7c3ed466",
-          "#6a7cdf66",
-          "#298fa666",
-          "#42903766",
-          "#c1822c66",
-          "#da601e66",
-          "#b71c4366"
+          "#8839ef",
+          "#7287fd",
+          "#209fb5",
+          "#40a02b",
+          "#df8e1d",
+          "#fe640b",
+          "#d20f39"
         ],
         "vim.mode.text": "#dce0e8",
+        "vim.normal.foreground": "#dce0e8",
+        "vim.helix_normal.foreground": "#dce0e8",
+        "vim.visual.foreground": "#dce0e8",
+        "vim.helix_select.foreground": "#dce0e8",
+        "vim.insert.foreground": "#dce0e8",
+        "vim.visual_line.foreground": "#dce0e8",
+        "vim.visual_block.foreground": "#dce0e8",
+        "vim.replace.foreground": "#dce0e8",
         "vim.normal.background": "#dc8a78",
         "vim.helix_normal.background": "#dc8a78",
         "vim.visual.background": "#7287fd",
@@ -4371,7 +4493,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#f9fafc90",
-        "search.match_background": "#17929933",
+        "search.match_background": "#1792994d",
+        "search.active_match_background": "#d20f394d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#ccd0da99",
@@ -4485,39 +4608,39 @@
             "background": "#dc8a78"
           },
           {
-            "cursor": "#7c3ed4",
-            "selection": "#7c3ed44d",
-            "background": "#7c3ed4"
+            "cursor": "#8839ef",
+            "selection": "#8839ef4d",
+            "background": "#8839ef"
           },
           {
-            "cursor": "#6a7cdf",
-            "selection": "#6a7cdf4d",
-            "background": "#6a7cdf"
+            "cursor": "#7287fd",
+            "selection": "#7287fd4d",
+            "background": "#7287fd"
           },
           {
-            "cursor": "#298fa6",
-            "selection": "#298fa64d",
-            "background": "#298fa6"
+            "cursor": "#209fb5",
+            "selection": "#209fb54d",
+            "background": "#209fb5"
           },
           {
-            "cursor": "#429037",
-            "selection": "#4290374d",
-            "background": "#429037"
+            "cursor": "#40a02b",
+            "selection": "#40a02b4d",
+            "background": "#40a02b"
           },
           {
-            "cursor": "#c1822c",
-            "selection": "#c1822c4d",
-            "background": "#c1822c"
+            "cursor": "#df8e1d",
+            "selection": "#df8e1d4d",
+            "background": "#df8e1d"
           },
           {
-            "cursor": "#da601e",
-            "selection": "#da601e4d",
-            "background": "#da601e"
+            "cursor": "#fe640b",
+            "selection": "#fe640b4d",
+            "background": "#fe640b"
           },
           {
-            "cursor": "#b71c43",
-            "selection": "#b71c434d",
-            "background": "#b71c43"
+            "cursor": "#d20f39",
+            "selection": "#d20f394d",
+            "background": "#d20f39"
           }
         ],
         "version_control.added": "#40a02b",
@@ -4643,6 +4766,21 @@
           },
           "number.float": {
             "color": "#fe640b",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#1e66f5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -4846,12 +4984,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#179299",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#d20f39",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#df8e1d",
             "font_style": "italic",
             "font_weight": null
@@ -4878,21 +5026,6 @@
           },
           "diff.minus": {
             "color": "#d20f39",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#1e66f5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#df8e1d",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -5034,15 +5167,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#caa8e966",
-          "#bdc0f266",
-          "#92c4e166",
-          "#add19f66",
-          "#dfcaa466",
-          "#e7a98f66",
-          "#e1929b66"
+          "#ca9ee6",
+          "#babbf1",
+          "#85c1dc",
+          "#a6d189",
+          "#e5c890",
+          "#ef9f76",
+          "#e78284"
         ],
         "vim.mode.text": "#232634",
+        "vim.normal.foreground": "#232634",
+        "vim.helix_normal.foreground": "#232634",
+        "vim.visual.foreground": "#232634",
+        "vim.helix_select.foreground": "#232634",
+        "vim.insert.foreground": "#232634",
+        "vim.visual_line.foreground": "#232634",
+        "vim.visual_block.foreground": "#232634",
+        "vim.replace.foreground": "#232634",
         "vim.normal.background": "#f2d5cf",
         "vim.helix_normal.background": "#f2d5cf",
         "vim.visual.background": "#babbf1",
@@ -5089,7 +5230,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#292c3c90",
-        "search.match_background": "#81c8be33",
+        "search.match_background": "#81c8be4d",
+        "search.active_match_background": "#e782844d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#41455999",
@@ -5203,39 +5345,39 @@
             "background": "#f2d5cf"
           },
           {
-            "cursor": "#caa8e9",
-            "selection": "#caa8e940",
-            "background": "#caa8e9"
+            "cursor": "#ca9ee6",
+            "selection": "#ca9ee640",
+            "background": "#ca9ee6"
           },
           {
-            "cursor": "#bdc0f2",
-            "selection": "#bdc0f240",
-            "background": "#bdc0f2"
+            "cursor": "#babbf1",
+            "selection": "#babbf140",
+            "background": "#babbf1"
           },
           {
-            "cursor": "#92c4e1",
-            "selection": "#92c4e140",
-            "background": "#92c4e1"
+            "cursor": "#85c1dc",
+            "selection": "#85c1dc40",
+            "background": "#85c1dc"
           },
           {
-            "cursor": "#add19f",
-            "selection": "#add19f40",
-            "background": "#add19f"
+            "cursor": "#a6d189",
+            "selection": "#a6d18940",
+            "background": "#a6d189"
           },
           {
-            "cursor": "#dfcaa4",
-            "selection": "#dfcaa440",
-            "background": "#dfcaa4"
+            "cursor": "#e5c890",
+            "selection": "#e5c89040",
+            "background": "#e5c890"
           },
           {
-            "cursor": "#e7a98f",
-            "selection": "#e7a98f40",
-            "background": "#e7a98f"
+            "cursor": "#ef9f76",
+            "selection": "#ef9f7640",
+            "background": "#ef9f76"
           },
           {
-            "cursor": "#e1929b",
-            "selection": "#e1929b40",
-            "background": "#e1929b"
+            "cursor": "#e78284",
+            "selection": "#e7828440",
+            "background": "#e78284"
           }
         ],
         "version_control.added": "#a6d189",
@@ -5361,6 +5503,21 @@
           },
           "number.float": {
             "color": "#ef9f76",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#8caaee",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#e5c890",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#81c8be",
             "font_style": null,
             "font_weight": null
           },
@@ -5564,12 +5721,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#81c8be",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#e78284",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#e5c890",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#e5c890",
             "font_style": "italic",
             "font_weight": null
@@ -5596,21 +5763,6 @@
           },
           "diff.minus": {
             "color": "#e78284",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#8caaee",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#e5c890",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#81c8be",
             "font_style": null,
             "font_weight": null
           },
@@ -5752,15 +5904,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#c6aaf666",
-          "#bac1f766",
-          "#8cc7e766",
-          "#add8a866",
-          "#e6d4b066",
-          "#ecb19766",
-          "#e696a966"
+          "#c6a0f6",
+          "#b7bdf8",
+          "#7dc4e4",
+          "#a6da95",
+          "#eed49f",
+          "#f5a97f",
+          "#ed8796"
         ],
         "vim.mode.text": "#181926",
+        "vim.normal.foreground": "#181926",
+        "vim.helix_normal.foreground": "#181926",
+        "vim.visual.foreground": "#181926",
+        "vim.helix_select.foreground": "#181926",
+        "vim.insert.foreground": "#181926",
+        "vim.visual_line.foreground": "#181926",
+        "vim.visual_block.foreground": "#181926",
+        "vim.replace.foreground": "#181926",
         "vim.normal.background": "#f4dbd6",
         "vim.helix_normal.background": "#f4dbd6",
         "vim.visual.background": "#b7bdf8",
@@ -5807,7 +5967,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#1e203090",
-        "search.match_background": "#8bd5ca33",
+        "search.match_background": "#8bd5ca4d",
+        "search.active_match_background": "#ed87964d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#363a4f99",
@@ -5921,39 +6082,39 @@
             "background": "#f4dbd6"
           },
           {
-            "cursor": "#c6aaf6",
-            "selection": "#c6aaf640",
-            "background": "#c6aaf6"
+            "cursor": "#c6a0f6",
+            "selection": "#c6a0f640",
+            "background": "#c6a0f6"
           },
           {
-            "cursor": "#bac1f7",
-            "selection": "#bac1f740",
-            "background": "#bac1f7"
+            "cursor": "#b7bdf8",
+            "selection": "#b7bdf840",
+            "background": "#b7bdf8"
           },
           {
-            "cursor": "#8cc7e7",
-            "selection": "#8cc7e740",
-            "background": "#8cc7e7"
+            "cursor": "#7dc4e4",
+            "selection": "#7dc4e440",
+            "background": "#7dc4e4"
           },
           {
-            "cursor": "#add8a8",
-            "selection": "#add8a840",
-            "background": "#add8a8"
+            "cursor": "#a6da95",
+            "selection": "#a6da9540",
+            "background": "#a6da95"
           },
           {
-            "cursor": "#e6d4b0",
-            "selection": "#e6d4b040",
-            "background": "#e6d4b0"
+            "cursor": "#eed49f",
+            "selection": "#eed49f40",
+            "background": "#eed49f"
           },
           {
-            "cursor": "#ecb197",
-            "selection": "#ecb19740",
-            "background": "#ecb197"
+            "cursor": "#f5a97f",
+            "selection": "#f5a97f40",
+            "background": "#f5a97f"
           },
           {
-            "cursor": "#e696a9",
-            "selection": "#e696a940",
-            "background": "#e696a9"
+            "cursor": "#ed8796",
+            "selection": "#ed879640",
+            "background": "#ed8796"
           }
         ],
         "version_control.added": "#a6da95",
@@ -6079,6 +6240,21 @@
           },
           "number.float": {
             "color": "#f5a97f",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#8aadf4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -6282,12 +6458,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#8bd5ca",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#ed8796",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#eed49f",
             "font_style": "italic",
             "font_weight": null
@@ -6314,21 +6500,6 @@
           },
           "diff.minus": {
             "color": "#ed8796",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#8aadf4",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#eed49f",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -6470,15 +6641,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#cbb0f766",
-          "#b9c3fc66",
-          "#86caee66",
-          "#aee1b266",
-          "#f0e0bd66",
-          "#f1ba9d66",
-          "#eb9ab766"
+          "#cba6f7",
+          "#b4befe",
+          "#74c7ec",
+          "#a6e3a1",
+          "#f9e2af",
+          "#fab387",
+          "#f38ba8"
         ],
         "vim.mode.text": "#11111b",
+        "vim.normal.foreground": "#11111b",
+        "vim.helix_normal.foreground": "#11111b",
+        "vim.visual.foreground": "#11111b",
+        "vim.helix_select.foreground": "#11111b",
+        "vim.insert.foreground": "#11111b",
+        "vim.visual_line.foreground": "#11111b",
+        "vim.visual_block.foreground": "#11111b",
+        "vim.replace.foreground": "#11111b",
         "vim.normal.background": "#f5e0dc",
         "vim.helix_normal.background": "#f5e0dc",
         "vim.visual.background": "#b4befe",
@@ -6525,7 +6704,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#18182590",
-        "search.match_background": "#94e2d533",
+        "search.match_background": "#94e2d54d",
+        "search.active_match_background": "#f38ba84d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#31324499",
@@ -6639,39 +6819,39 @@
             "background": "#f5e0dc"
           },
           {
-            "cursor": "#cbb0f7",
-            "selection": "#cbb0f740",
-            "background": "#cbb0f7"
+            "cursor": "#cba6f7",
+            "selection": "#cba6f740",
+            "background": "#cba6f7"
           },
           {
-            "cursor": "#b9c3fc",
-            "selection": "#b9c3fc40",
-            "background": "#b9c3fc"
+            "cursor": "#b4befe",
+            "selection": "#b4befe40",
+            "background": "#b4befe"
           },
           {
-            "cursor": "#86caee",
-            "selection": "#86caee40",
-            "background": "#86caee"
+            "cursor": "#74c7ec",
+            "selection": "#74c7ec40",
+            "background": "#74c7ec"
           },
           {
-            "cursor": "#aee1b2",
-            "selection": "#aee1b240",
-            "background": "#aee1b2"
+            "cursor": "#a6e3a1",
+            "selection": "#a6e3a140",
+            "background": "#a6e3a1"
           },
           {
-            "cursor": "#f0e0bd",
-            "selection": "#f0e0bd40",
-            "background": "#f0e0bd"
+            "cursor": "#f9e2af",
+            "selection": "#f9e2af40",
+            "background": "#f9e2af"
           },
           {
-            "cursor": "#f1ba9d",
-            "selection": "#f1ba9d40",
-            "background": "#f1ba9d"
+            "cursor": "#fab387",
+            "selection": "#fab38740",
+            "background": "#fab387"
           },
           {
-            "cursor": "#eb9ab7",
-            "selection": "#eb9ab740",
-            "background": "#eb9ab7"
+            "cursor": "#f38ba8",
+            "selection": "#f38ba840",
+            "background": "#f38ba8"
           }
         ],
         "version_control.added": "#a6e3a1",
@@ -6797,6 +6977,21 @@
           },
           "number.float": {
             "color": "#fab387",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#89b4fa",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#f9e2af",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#94e2d5",
             "font_style": null,
             "font_weight": null
           },
@@ -7000,12 +7195,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#94e2d5",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#f38ba8",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#f9e2af",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#f9e2af",
             "font_style": "italic",
             "font_weight": null
@@ -7032,21 +7237,6 @@
           },
           "diff.minus": {
             "color": "#f38ba8",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#89b4fa",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#f9e2af",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#94e2d5",
             "font_style": null,
             "font_weight": null
           },
@@ -7188,15 +7378,23 @@
       "appearance": "light",
       "style": {
         "accents": [
-          "#7c3ed466",
-          "#6a7cdf66",
-          "#298fa666",
-          "#42903766",
-          "#c1822c66",
-          "#da601e66",
-          "#b71c4366"
+          "#8839ef",
+          "#7287fd",
+          "#209fb5",
+          "#40a02b",
+          "#df8e1d",
+          "#fe640b",
+          "#d20f39"
         ],
         "vim.mode.text": "#dce0e8",
+        "vim.normal.foreground": "#dce0e8",
+        "vim.helix_normal.foreground": "#dce0e8",
+        "vim.visual.foreground": "#dce0e8",
+        "vim.helix_select.foreground": "#dce0e8",
+        "vim.insert.foreground": "#dce0e8",
+        "vim.visual_line.foreground": "#dce0e8",
+        "vim.visual_block.foreground": "#dce0e8",
+        "vim.replace.foreground": "#dce0e8",
         "vim.normal.background": "#dc8a78",
         "vim.helix_normal.background": "#dc8a78",
         "vim.visual.background": "#7287fd",
@@ -7243,7 +7441,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#f9fafcb0",
-        "search.match_background": "#17929933",
+        "search.match_background": "#1792994d",
+        "search.active_match_background": "#d20f394d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#ccd0da99",
@@ -7357,39 +7556,39 @@
             "background": "#dc8a78"
           },
           {
-            "cursor": "#7c3ed4",
-            "selection": "#7c3ed44d",
-            "background": "#7c3ed4"
+            "cursor": "#8839ef",
+            "selection": "#8839ef4d",
+            "background": "#8839ef"
           },
           {
-            "cursor": "#6a7cdf",
-            "selection": "#6a7cdf4d",
-            "background": "#6a7cdf"
+            "cursor": "#7287fd",
+            "selection": "#7287fd4d",
+            "background": "#7287fd"
           },
           {
-            "cursor": "#298fa6",
-            "selection": "#298fa64d",
-            "background": "#298fa6"
+            "cursor": "#209fb5",
+            "selection": "#209fb54d",
+            "background": "#209fb5"
           },
           {
-            "cursor": "#429037",
-            "selection": "#4290374d",
-            "background": "#429037"
+            "cursor": "#40a02b",
+            "selection": "#40a02b4d",
+            "background": "#40a02b"
           },
           {
-            "cursor": "#c1822c",
-            "selection": "#c1822c4d",
-            "background": "#c1822c"
+            "cursor": "#df8e1d",
+            "selection": "#df8e1d4d",
+            "background": "#df8e1d"
           },
           {
-            "cursor": "#da601e",
-            "selection": "#da601e4d",
-            "background": "#da601e"
+            "cursor": "#fe640b",
+            "selection": "#fe640b4d",
+            "background": "#fe640b"
           },
           {
-            "cursor": "#b71c43",
-            "selection": "#b71c434d",
-            "background": "#b71c43"
+            "cursor": "#d20f39",
+            "selection": "#d20f394d",
+            "background": "#d20f39"
           }
         ],
         "version_control.added": "#40a02b",
@@ -7515,6 +7714,21 @@
           },
           "number.float": {
             "color": "#fe640b",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#1e66f5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -7718,12 +7932,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#179299",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#d20f39",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#df8e1d",
             "font_style": "italic",
             "font_weight": null
@@ -7750,21 +7974,6 @@
           },
           "diff.minus": {
             "color": "#d20f39",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#1e66f5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#df8e1d",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -7906,15 +8115,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#caa8e966",
-          "#bdc0f266",
-          "#92c4e166",
-          "#add19f66",
-          "#dfcaa466",
-          "#e7a98f66",
-          "#e1929b66"
+          "#ca9ee6",
+          "#babbf1",
+          "#85c1dc",
+          "#a6d189",
+          "#e5c890",
+          "#ef9f76",
+          "#e78284"
         ],
         "vim.mode.text": "#232634",
+        "vim.normal.foreground": "#232634",
+        "vim.helix_normal.foreground": "#232634",
+        "vim.visual.foreground": "#232634",
+        "vim.helix_select.foreground": "#232634",
+        "vim.insert.foreground": "#232634",
+        "vim.visual_line.foreground": "#232634",
+        "vim.visual_block.foreground": "#232634",
+        "vim.replace.foreground": "#232634",
         "vim.normal.background": "#f2d5cf",
         "vim.helix_normal.background": "#f2d5cf",
         "vim.visual.background": "#babbf1",
@@ -7961,7 +8178,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#292c3cb0",
-        "search.match_background": "#81c8be33",
+        "search.match_background": "#81c8be4d",
+        "search.active_match_background": "#e782844d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#41455999",
@@ -8075,39 +8293,39 @@
             "background": "#f2d5cf"
           },
           {
-            "cursor": "#caa8e9",
-            "selection": "#caa8e940",
-            "background": "#caa8e9"
+            "cursor": "#ca9ee6",
+            "selection": "#ca9ee640",
+            "background": "#ca9ee6"
           },
           {
-            "cursor": "#bdc0f2",
-            "selection": "#bdc0f240",
-            "background": "#bdc0f2"
+            "cursor": "#babbf1",
+            "selection": "#babbf140",
+            "background": "#babbf1"
           },
           {
-            "cursor": "#92c4e1",
-            "selection": "#92c4e140",
-            "background": "#92c4e1"
+            "cursor": "#85c1dc",
+            "selection": "#85c1dc40",
+            "background": "#85c1dc"
           },
           {
-            "cursor": "#add19f",
-            "selection": "#add19f40",
-            "background": "#add19f"
+            "cursor": "#a6d189",
+            "selection": "#a6d18940",
+            "background": "#a6d189"
           },
           {
-            "cursor": "#dfcaa4",
-            "selection": "#dfcaa440",
-            "background": "#dfcaa4"
+            "cursor": "#e5c890",
+            "selection": "#e5c89040",
+            "background": "#e5c890"
           },
           {
-            "cursor": "#e7a98f",
-            "selection": "#e7a98f40",
-            "background": "#e7a98f"
+            "cursor": "#ef9f76",
+            "selection": "#ef9f7640",
+            "background": "#ef9f76"
           },
           {
-            "cursor": "#e1929b",
-            "selection": "#e1929b40",
-            "background": "#e1929b"
+            "cursor": "#e78284",
+            "selection": "#e7828440",
+            "background": "#e78284"
           }
         ],
         "version_control.added": "#a6d189",
@@ -8233,6 +8451,21 @@
           },
           "number.float": {
             "color": "#ef9f76",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#8caaee",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#e5c890",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#81c8be",
             "font_style": null,
             "font_weight": null
           },
@@ -8436,12 +8669,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#81c8be",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#e78284",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#e5c890",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#e5c890",
             "font_style": "italic",
             "font_weight": null
@@ -8468,21 +8711,6 @@
           },
           "diff.minus": {
             "color": "#e78284",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#8caaee",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#e5c890",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#81c8be",
             "font_style": null,
             "font_weight": null
           },
@@ -8624,15 +8852,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#c6aaf666",
-          "#bac1f766",
-          "#8cc7e766",
-          "#add8a866",
-          "#e6d4b066",
-          "#ecb19766",
-          "#e696a966"
+          "#c6a0f6",
+          "#b7bdf8",
+          "#7dc4e4",
+          "#a6da95",
+          "#eed49f",
+          "#f5a97f",
+          "#ed8796"
         ],
         "vim.mode.text": "#181926",
+        "vim.normal.foreground": "#181926",
+        "vim.helix_normal.foreground": "#181926",
+        "vim.visual.foreground": "#181926",
+        "vim.helix_select.foreground": "#181926",
+        "vim.insert.foreground": "#181926",
+        "vim.visual_line.foreground": "#181926",
+        "vim.visual_block.foreground": "#181926",
+        "vim.replace.foreground": "#181926",
         "vim.normal.background": "#f4dbd6",
         "vim.helix_normal.background": "#f4dbd6",
         "vim.visual.background": "#b7bdf8",
@@ -8679,7 +8915,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#1e2030b0",
-        "search.match_background": "#8bd5ca33",
+        "search.match_background": "#8bd5ca4d",
+        "search.active_match_background": "#ed87964d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#363a4f99",
@@ -8793,39 +9030,39 @@
             "background": "#f4dbd6"
           },
           {
-            "cursor": "#c6aaf6",
-            "selection": "#c6aaf640",
-            "background": "#c6aaf6"
+            "cursor": "#c6a0f6",
+            "selection": "#c6a0f640",
+            "background": "#c6a0f6"
           },
           {
-            "cursor": "#bac1f7",
-            "selection": "#bac1f740",
-            "background": "#bac1f7"
+            "cursor": "#b7bdf8",
+            "selection": "#b7bdf840",
+            "background": "#b7bdf8"
           },
           {
-            "cursor": "#8cc7e7",
-            "selection": "#8cc7e740",
-            "background": "#8cc7e7"
+            "cursor": "#7dc4e4",
+            "selection": "#7dc4e440",
+            "background": "#7dc4e4"
           },
           {
-            "cursor": "#add8a8",
-            "selection": "#add8a840",
-            "background": "#add8a8"
+            "cursor": "#a6da95",
+            "selection": "#a6da9540",
+            "background": "#a6da95"
           },
           {
-            "cursor": "#e6d4b0",
-            "selection": "#e6d4b040",
-            "background": "#e6d4b0"
+            "cursor": "#eed49f",
+            "selection": "#eed49f40",
+            "background": "#eed49f"
           },
           {
-            "cursor": "#ecb197",
-            "selection": "#ecb19740",
-            "background": "#ecb197"
+            "cursor": "#f5a97f",
+            "selection": "#f5a97f40",
+            "background": "#f5a97f"
           },
           {
-            "cursor": "#e696a9",
-            "selection": "#e696a940",
-            "background": "#e696a9"
+            "cursor": "#ed8796",
+            "selection": "#ed879640",
+            "background": "#ed8796"
           }
         ],
         "version_control.added": "#a6da95",
@@ -8951,6 +9188,21 @@
           },
           "number.float": {
             "color": "#f5a97f",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#8aadf4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -9154,12 +9406,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#8bd5ca",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#ed8796",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#eed49f",
             "font_style": "italic",
             "font_weight": null
@@ -9186,21 +9448,6 @@
           },
           "diff.minus": {
             "color": "#ed8796",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#8aadf4",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#eed49f",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -9342,15 +9589,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#cbb0f766",
-          "#b9c3fc66",
-          "#86caee66",
-          "#aee1b266",
-          "#f0e0bd66",
-          "#f1ba9d66",
-          "#eb9ab766"
+          "#cba6f7",
+          "#b4befe",
+          "#74c7ec",
+          "#a6e3a1",
+          "#f9e2af",
+          "#fab387",
+          "#f38ba8"
         ],
         "vim.mode.text": "#11111b",
+        "vim.normal.foreground": "#11111b",
+        "vim.helix_normal.foreground": "#11111b",
+        "vim.visual.foreground": "#11111b",
+        "vim.helix_select.foreground": "#11111b",
+        "vim.insert.foreground": "#11111b",
+        "vim.visual_line.foreground": "#11111b",
+        "vim.visual_block.foreground": "#11111b",
+        "vim.replace.foreground": "#11111b",
         "vim.normal.background": "#f5e0dc",
         "vim.helix_normal.background": "#f5e0dc",
         "vim.visual.background": "#b4befe",
@@ -9397,7 +9652,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#181825b0",
-        "search.match_background": "#94e2d533",
+        "search.match_background": "#94e2d54d",
+        "search.active_match_background": "#f38ba84d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#31324499",
@@ -9511,39 +9767,39 @@
             "background": "#f5e0dc"
           },
           {
-            "cursor": "#cbb0f7",
-            "selection": "#cbb0f740",
-            "background": "#cbb0f7"
+            "cursor": "#cba6f7",
+            "selection": "#cba6f740",
+            "background": "#cba6f7"
           },
           {
-            "cursor": "#b9c3fc",
-            "selection": "#b9c3fc40",
-            "background": "#b9c3fc"
+            "cursor": "#b4befe",
+            "selection": "#b4befe40",
+            "background": "#b4befe"
           },
           {
-            "cursor": "#86caee",
-            "selection": "#86caee40",
-            "background": "#86caee"
+            "cursor": "#74c7ec",
+            "selection": "#74c7ec40",
+            "background": "#74c7ec"
           },
           {
-            "cursor": "#aee1b2",
-            "selection": "#aee1b240",
-            "background": "#aee1b2"
+            "cursor": "#a6e3a1",
+            "selection": "#a6e3a140",
+            "background": "#a6e3a1"
           },
           {
-            "cursor": "#f0e0bd",
-            "selection": "#f0e0bd40",
-            "background": "#f0e0bd"
+            "cursor": "#f9e2af",
+            "selection": "#f9e2af40",
+            "background": "#f9e2af"
           },
           {
-            "cursor": "#f1ba9d",
-            "selection": "#f1ba9d40",
-            "background": "#f1ba9d"
+            "cursor": "#fab387",
+            "selection": "#fab38740",
+            "background": "#fab387"
           },
           {
-            "cursor": "#eb9ab7",
-            "selection": "#eb9ab740",
-            "background": "#eb9ab7"
+            "cursor": "#f38ba8",
+            "selection": "#f38ba840",
+            "background": "#f38ba8"
           }
         ],
         "version_control.added": "#a6e3a1",
@@ -9669,6 +9925,21 @@
           },
           "number.float": {
             "color": "#fab387",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#89b4fa",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#f9e2af",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#94e2d5",
             "font_style": null,
             "font_weight": null
           },
@@ -9872,12 +10143,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#94e2d5",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#f38ba8",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#f9e2af",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#f9e2af",
             "font_style": "italic",
             "font_weight": null
@@ -9904,21 +10185,6 @@
           },
           "diff.minus": {
             "color": "#f38ba8",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#89b4fa",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#f9e2af",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#94e2d5",
             "font_style": null,
             "font_weight": null
           },
@@ -10060,15 +10326,23 @@
       "appearance": "light",
       "style": {
         "accents": [
-          "#7c3ed466",
-          "#6a7cdf66",
-          "#298fa666",
-          "#42903766",
-          "#c1822c66",
-          "#da601e66",
-          "#b71c4366"
+          "#8839ef",
+          "#7287fd",
+          "#209fb5",
+          "#40a02b",
+          "#df8e1d",
+          "#fe640b",
+          "#d20f39"
         ],
         "vim.mode.text": "#dce0e8",
+        "vim.normal.foreground": "#dce0e8",
+        "vim.helix_normal.foreground": "#dce0e8",
+        "vim.visual.foreground": "#dce0e8",
+        "vim.helix_select.foreground": "#dce0e8",
+        "vim.insert.foreground": "#dce0e8",
+        "vim.visual_line.foreground": "#dce0e8",
+        "vim.visual_block.foreground": "#dce0e8",
+        "vim.replace.foreground": "#dce0e8",
         "vim.normal.background": "#dc8a78",
         "vim.helix_normal.background": "#dc8a78",
         "vim.visual.background": "#7287fd",
@@ -10115,7 +10389,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#f9fafcd0",
-        "search.match_background": "#17929933",
+        "search.match_background": "#1792994d",
+        "search.active_match_background": "#d20f394d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#ccd0da99",
@@ -10229,39 +10504,39 @@
             "background": "#dc8a78"
           },
           {
-            "cursor": "#7c3ed4",
-            "selection": "#7c3ed44d",
-            "background": "#7c3ed4"
+            "cursor": "#8839ef",
+            "selection": "#8839ef4d",
+            "background": "#8839ef"
           },
           {
-            "cursor": "#6a7cdf",
-            "selection": "#6a7cdf4d",
-            "background": "#6a7cdf"
+            "cursor": "#7287fd",
+            "selection": "#7287fd4d",
+            "background": "#7287fd"
           },
           {
-            "cursor": "#298fa6",
-            "selection": "#298fa64d",
-            "background": "#298fa6"
+            "cursor": "#209fb5",
+            "selection": "#209fb54d",
+            "background": "#209fb5"
           },
           {
-            "cursor": "#429037",
-            "selection": "#4290374d",
-            "background": "#429037"
+            "cursor": "#40a02b",
+            "selection": "#40a02b4d",
+            "background": "#40a02b"
           },
           {
-            "cursor": "#c1822c",
-            "selection": "#c1822c4d",
-            "background": "#c1822c"
+            "cursor": "#df8e1d",
+            "selection": "#df8e1d4d",
+            "background": "#df8e1d"
           },
           {
-            "cursor": "#da601e",
-            "selection": "#da601e4d",
-            "background": "#da601e"
+            "cursor": "#fe640b",
+            "selection": "#fe640b4d",
+            "background": "#fe640b"
           },
           {
-            "cursor": "#b71c43",
-            "selection": "#b71c434d",
-            "background": "#b71c43"
+            "cursor": "#d20f39",
+            "selection": "#d20f394d",
+            "background": "#d20f39"
           }
         ],
         "version_control.added": "#40a02b",
@@ -10387,6 +10662,21 @@
           },
           "number.float": {
             "color": "#fe640b",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#1e66f5",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -10590,12 +10880,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#179299",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#d20f39",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#df8e1d",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#df8e1d",
             "font_style": "italic",
             "font_weight": null
@@ -10622,21 +10922,6 @@
           },
           "diff.minus": {
             "color": "#d20f39",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#1e66f5",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#df8e1d",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#179299",
             "font_style": null,
             "font_weight": null
           },
@@ -10778,15 +11063,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#caa8e966",
-          "#bdc0f266",
-          "#92c4e166",
-          "#add19f66",
-          "#dfcaa466",
-          "#e7a98f66",
-          "#e1929b66"
+          "#ca9ee6",
+          "#babbf1",
+          "#85c1dc",
+          "#a6d189",
+          "#e5c890",
+          "#ef9f76",
+          "#e78284"
         ],
         "vim.mode.text": "#232634",
+        "vim.normal.foreground": "#232634",
+        "vim.helix_normal.foreground": "#232634",
+        "vim.visual.foreground": "#232634",
+        "vim.helix_select.foreground": "#232634",
+        "vim.insert.foreground": "#232634",
+        "vim.visual_line.foreground": "#232634",
+        "vim.visual_block.foreground": "#232634",
+        "vim.replace.foreground": "#232634",
         "vim.normal.background": "#f2d5cf",
         "vim.helix_normal.background": "#f2d5cf",
         "vim.visual.background": "#babbf1",
@@ -10833,7 +11126,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#292c3cd0",
-        "search.match_background": "#81c8be33",
+        "search.match_background": "#81c8be4d",
+        "search.active_match_background": "#e782844d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#41455999",
@@ -10947,39 +11241,39 @@
             "background": "#f2d5cf"
           },
           {
-            "cursor": "#caa8e9",
-            "selection": "#caa8e940",
-            "background": "#caa8e9"
+            "cursor": "#ca9ee6",
+            "selection": "#ca9ee640",
+            "background": "#ca9ee6"
           },
           {
-            "cursor": "#bdc0f2",
-            "selection": "#bdc0f240",
-            "background": "#bdc0f2"
+            "cursor": "#babbf1",
+            "selection": "#babbf140",
+            "background": "#babbf1"
           },
           {
-            "cursor": "#92c4e1",
-            "selection": "#92c4e140",
-            "background": "#92c4e1"
+            "cursor": "#85c1dc",
+            "selection": "#85c1dc40",
+            "background": "#85c1dc"
           },
           {
-            "cursor": "#add19f",
-            "selection": "#add19f40",
-            "background": "#add19f"
+            "cursor": "#a6d189",
+            "selection": "#a6d18940",
+            "background": "#a6d189"
           },
           {
-            "cursor": "#dfcaa4",
-            "selection": "#dfcaa440",
-            "background": "#dfcaa4"
+            "cursor": "#e5c890",
+            "selection": "#e5c89040",
+            "background": "#e5c890"
           },
           {
-            "cursor": "#e7a98f",
-            "selection": "#e7a98f40",
-            "background": "#e7a98f"
+            "cursor": "#ef9f76",
+            "selection": "#ef9f7640",
+            "background": "#ef9f76"
           },
           {
-            "cursor": "#e1929b",
-            "selection": "#e1929b40",
-            "background": "#e1929b"
+            "cursor": "#e78284",
+            "selection": "#e7828440",
+            "background": "#e78284"
           }
         ],
         "version_control.added": "#a6d189",
@@ -11105,6 +11399,21 @@
           },
           "number.float": {
             "color": "#ef9f76",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#8caaee",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#e5c890",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#81c8be",
             "font_style": null,
             "font_weight": null
           },
@@ -11308,12 +11617,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#81c8be",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#e78284",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#e5c890",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#e5c890",
             "font_style": "italic",
             "font_weight": null
@@ -11340,21 +11659,6 @@
           },
           "diff.minus": {
             "color": "#e78284",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#8caaee",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#e5c890",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#81c8be",
             "font_style": null,
             "font_weight": null
           },
@@ -11496,15 +11800,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#c6aaf666",
-          "#bac1f766",
-          "#8cc7e766",
-          "#add8a866",
-          "#e6d4b066",
-          "#ecb19766",
-          "#e696a966"
+          "#c6a0f6",
+          "#b7bdf8",
+          "#7dc4e4",
+          "#a6da95",
+          "#eed49f",
+          "#f5a97f",
+          "#ed8796"
         ],
         "vim.mode.text": "#181926",
+        "vim.normal.foreground": "#181926",
+        "vim.helix_normal.foreground": "#181926",
+        "vim.visual.foreground": "#181926",
+        "vim.helix_select.foreground": "#181926",
+        "vim.insert.foreground": "#181926",
+        "vim.visual_line.foreground": "#181926",
+        "vim.visual_block.foreground": "#181926",
+        "vim.replace.foreground": "#181926",
         "vim.normal.background": "#f4dbd6",
         "vim.helix_normal.background": "#f4dbd6",
         "vim.visual.background": "#b7bdf8",
@@ -11551,7 +11863,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#1e2030d0",
-        "search.match_background": "#8bd5ca33",
+        "search.match_background": "#8bd5ca4d",
+        "search.active_match_background": "#ed87964d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#363a4f99",
@@ -11665,39 +11978,39 @@
             "background": "#f4dbd6"
           },
           {
-            "cursor": "#c6aaf6",
-            "selection": "#c6aaf640",
-            "background": "#c6aaf6"
+            "cursor": "#c6a0f6",
+            "selection": "#c6a0f640",
+            "background": "#c6a0f6"
           },
           {
-            "cursor": "#bac1f7",
-            "selection": "#bac1f740",
-            "background": "#bac1f7"
+            "cursor": "#b7bdf8",
+            "selection": "#b7bdf840",
+            "background": "#b7bdf8"
           },
           {
-            "cursor": "#8cc7e7",
-            "selection": "#8cc7e740",
-            "background": "#8cc7e7"
+            "cursor": "#7dc4e4",
+            "selection": "#7dc4e440",
+            "background": "#7dc4e4"
           },
           {
-            "cursor": "#add8a8",
-            "selection": "#add8a840",
-            "background": "#add8a8"
+            "cursor": "#a6da95",
+            "selection": "#a6da9540",
+            "background": "#a6da95"
           },
           {
-            "cursor": "#e6d4b0",
-            "selection": "#e6d4b040",
-            "background": "#e6d4b0"
+            "cursor": "#eed49f",
+            "selection": "#eed49f40",
+            "background": "#eed49f"
           },
           {
-            "cursor": "#ecb197",
-            "selection": "#ecb19740",
-            "background": "#ecb197"
+            "cursor": "#f5a97f",
+            "selection": "#f5a97f40",
+            "background": "#f5a97f"
           },
           {
-            "cursor": "#e696a9",
-            "selection": "#e696a940",
-            "background": "#e696a9"
+            "cursor": "#ed8796",
+            "selection": "#ed879640",
+            "background": "#ed8796"
           }
         ],
         "version_control.added": "#a6da95",
@@ -11823,6 +12136,21 @@
           },
           "number.float": {
             "color": "#f5a97f",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#8aadf4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -12026,12 +12354,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#8bd5ca",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#ed8796",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#eed49f",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#eed49f",
             "font_style": "italic",
             "font_weight": null
@@ -12058,21 +12396,6 @@
           },
           "diff.minus": {
             "color": "#ed8796",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#8aadf4",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#eed49f",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#8bd5ca",
             "font_style": null,
             "font_weight": null
           },
@@ -12214,15 +12537,23 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#cbb0f766",
-          "#b9c3fc66",
-          "#86caee66",
-          "#aee1b266",
-          "#f0e0bd66",
-          "#f1ba9d66",
-          "#eb9ab766"
+          "#cba6f7",
+          "#b4befe",
+          "#74c7ec",
+          "#a6e3a1",
+          "#f9e2af",
+          "#fab387",
+          "#f38ba8"
         ],
         "vim.mode.text": "#11111b",
+        "vim.normal.foreground": "#11111b",
+        "vim.helix_normal.foreground": "#11111b",
+        "vim.visual.foreground": "#11111b",
+        "vim.helix_select.foreground": "#11111b",
+        "vim.insert.foreground": "#11111b",
+        "vim.visual_line.foreground": "#11111b",
+        "vim.visual_block.foreground": "#11111b",
+        "vim.replace.foreground": "#11111b",
         "vim.normal.background": "#f5e0dc",
         "vim.helix_normal.background": "#f5e0dc",
         "vim.visual.background": "#b4befe",
@@ -12269,7 +12600,8 @@
         "tab_bar.background": "#00000000",
         "tab.inactive_background": "#00000000",
         "tab.active_background": "#181825d0",
-        "search.match_background": "#94e2d533",
+        "search.match_background": "#94e2d54d",
+        "search.active_match_background": "#f38ba84d",
         "panel.background": "#00000000",
         "panel.focused_border": "00000000",
         "panel.indent_guide": "#31324499",
@@ -12383,39 +12715,39 @@
             "background": "#f5e0dc"
           },
           {
-            "cursor": "#cbb0f7",
-            "selection": "#cbb0f740",
-            "background": "#cbb0f7"
+            "cursor": "#cba6f7",
+            "selection": "#cba6f740",
+            "background": "#cba6f7"
           },
           {
-            "cursor": "#b9c3fc",
-            "selection": "#b9c3fc40",
-            "background": "#b9c3fc"
+            "cursor": "#b4befe",
+            "selection": "#b4befe40",
+            "background": "#b4befe"
           },
           {
-            "cursor": "#86caee",
-            "selection": "#86caee40",
-            "background": "#86caee"
+            "cursor": "#74c7ec",
+            "selection": "#74c7ec40",
+            "background": "#74c7ec"
           },
           {
-            "cursor": "#aee1b2",
-            "selection": "#aee1b240",
-            "background": "#aee1b2"
+            "cursor": "#a6e3a1",
+            "selection": "#a6e3a140",
+            "background": "#a6e3a1"
           },
           {
-            "cursor": "#f0e0bd",
-            "selection": "#f0e0bd40",
-            "background": "#f0e0bd"
+            "cursor": "#f9e2af",
+            "selection": "#f9e2af40",
+            "background": "#f9e2af"
           },
           {
-            "cursor": "#f1ba9d",
-            "selection": "#f1ba9d40",
-            "background": "#f1ba9d"
+            "cursor": "#fab387",
+            "selection": "#fab38740",
+            "background": "#fab387"
           },
           {
-            "cursor": "#eb9ab7",
-            "selection": "#eb9ab740",
-            "background": "#eb9ab7"
+            "cursor": "#f38ba8",
+            "selection": "#f38ba840",
+            "background": "#f38ba8"
           }
         ],
         "version_control.added": "#a6e3a1",
@@ -12541,6 +12873,21 @@
           },
           "number.float": {
             "color": "#fab387",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            "color": "#89b4fa",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.attribute": {
+            "color": "#f9e2af",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#94e2d5",
             "font_style": null,
             "font_weight": null
           },
@@ -12744,12 +13091,22 @@
             "font_style": "italic",
             "font_weight": null
           },
+          "comment.info": {
+            "color": "#94e2d5",
+            "font_style": "italic",
+            "font_weight": null
+          },
           "comment.error": {
             "color": "#f38ba8",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.warning": {
+            "color": "#f9e2af",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "comment.warn": {
             "color": "#f9e2af",
             "font_style": "italic",
             "font_weight": null
@@ -12776,21 +13133,6 @@
           },
           "diff.minus": {
             "color": "#f38ba8",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#89b4fa",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag.attribute": {
-            "color": "#f9e2af",
-            "font_style": "italic",
-            "font_weight": null
-          },
-          "tag.delimiter": {
-            "color": "#94e2d5",
             "font_style": null,
             "font_weight": null
           },
