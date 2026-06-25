@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
   repository_dispatch:
-    types: [catppuccin-update]
+    types: [rose-pine-update]
 
 permissions:
   contents: write
@@ -44,9 +44,9 @@ jobs:
           commit-message: "chore: sync theme"
           title: "chore: sync theme"
           body: |
-            Automated theme sync with latest Catppuccin theme.
+            Automated theme sync with latest rose pine theme.
 
-            - Synced with latest Catppuccin theme
+            - Synced with latest rose pine theme
             - Applied blur customizations
             - Updated all variants including Espresso
           branch: chore/theme-sync
@@ -55,4 +55,4 @@ jobs:
             theme
             automated pr
           add-paths: |
-            themes/catppuccin-blur.json
+            themes/rose-pine-blur.json

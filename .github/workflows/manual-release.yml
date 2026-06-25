@@ -61,7 +61,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add themes/catppuccin-blur.json extension.toml
+          git add themes/rose-pine-blur.json extension.toml
           git commit -m "chore: prepare release ${{ steps.version.outputs.new_version }}"
 
       - name: Push changes to master
@@ -83,7 +83,7 @@ jobs:
       - name: Publish to Zed
         uses: huacnlee/zed-extension-action@v1
         with:
-          extension-name: catppuccin-blur
+          extension-name: rose-pine-blur
           push-to: jenslys/extensions
           tag-name: v${{ steps.version.outputs.new_version }}
         env:

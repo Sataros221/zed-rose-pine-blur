@@ -1,53 +1,37 @@
-# 🌿 Catppuccin Blur for Zed
+# 🌹 Rose Pine Blur for Zed
+
+> **Note**
+> This is a fork of the original [zed-catppuccin-blur](https://github.com/jenslys/zed-catppuccin-blur) all credits go to the original author, this is just a modified version with the rose pine color palette.
 
 > **Note**
 > The blur effect may not work on all operating systems. This is a limitation of Zed's window transparency implementation, not a theme issue. If you experience issues with blur, please report them to the [Zed repository](https://github.com/zed-industries/zed).
 
-> **Note**
-> This is an opinionated fork of the original Catppuccin theme. In addition to the blur effects, it includes various UI tweaks and modifications to create a unique visual experience. The changes go beyond just adding transparency.
-
 <p align="center">
-  <a href="https://github.com/jenslys/zed-catppuccin-blur/stargazers">
-    <img src="https://img.shields.io/github/stars/jenslys/zed-catppuccin-blur?colorA=363a4f&colorB=b7bdf8&style=for-the-badge">
-  </a>
-  <a href="https://github.com/jenslys/zed-catppuccin-blur/issues">
-    <img src="https://img.shields.io/github/issues/jenslys/zed-catppuccin-blur?colorA=363a4f&colorB=f5a97f&style=for-the-badge">
-  </a>
-  <a href="https://github.com/jenslys/zed-catppuccin-blur/contributors">
-    <img src="https://img.shields.io/github/contributors/jenslys/zed-catppuccin-blur?colorA=363a4f&colorB=a6da95&style=for-the-badge">
-  </a>
+  A modern, blurred variant of the <a href="https://github.com/rose-pine/zed">Rose Pine theme</a> for <a href="https://zed.dev">Zed</a>
 </p>
 
-<p align="center">
-  A modern, blurred variant of the <a href="https://github.com/catppuccin/zed">Catppuccin theme</a> for <a href="https://zed.dev">Zed</a>
-</p>
+## 🎨 Variants
 
-## 📸 Previews
+This extension ships the three official Rose Pine variants plus one custom variant, each in three blur levels (Light, Medium, Heavy):
 
-<details>
-<summary>🌅 Latte</summary>
-<img src="assets/latte.png">
-</details>
-<details>
-<summary>🧊 Iced Latte</summary>
-<img src="assets/iced-latte.png">
-</details>
-<details>
-<summary>❄️ Frappé</summary>
-<img src="assets/frappe.png">
-</details>
-<details>
-<summary>☕ Macchiato</summary>
-<img src="assets/macchiato.png">
-</details>
-<details>
-<summary>🌿 Mocha</summary>
-<img src="assets/mocha.png">
-</details>
-<details>
-<summary>🖤 Espresso</summary>
-<img src="assets/espresso.png">
-</details>
+| Variant | Appearance | Source |
+| --- | --- | --- |
+| **Rose Pine Dawn** | light | Official Rose Pine Dawn |
+| **Rose Pine** | dark | Official Rose Pine (default) |
+| **Rose Pine Moon** | dark | Official Rose Pine Moon |
+| **Rose Pine Dusk** | dark | Custom — near-black backgrounds with the Rose Pine accent palette |
+
+Each variant produces three theme entries in Zed:
+
+- `Rose Pine <Variant> (Blur)` — Medium blur (default, ~85% opacity)
+- `Rose Pine <Variant> (Blur) [Light]` — Light blur (~60% opacity, more see-through)
+- `Rose Pine <Variant> (Blur) [Heavy]` — Heavy blur (~88% opacity, more solid)
+
+That's **12 themes** in total.
+
+### 🖤 The Dusk variant
+
+Dusk is the signature custom variant of this extension. It is not part of the official Rose Pine family — it takes the Rose Pine accent palette (love, gold, rose, pine, foam, iris) and lays it on top of near-black backgrounds (`#0d0c14` for the main surface, `#08070d` for elevated surfaces) for an "dusk" feel. It's the darkest variant in the set, darker than Rose Pine Moon.
 
 ## 📦 Installation
 
@@ -74,19 +58,20 @@ This disables sticky scroll in the project panel, which can interfere with the b
 
 ### 🎨 Recommended Icon Theme
 
-For a cohesive visual experience, we recommend installing the [Catppuccin Icons](https://github.com/catppuccin/zed-icons) extension alongside this theme. The icon colors are specifically designed to complement the Catppuccin color palette.
+For a cohesive visual experience, we recommend installing a complementary icon theme. The [Catppuccin Icons](https://github.com/catppuccin/zed-icons) extension pairs well, or any icon theme that uses muted, low-saturation colors will work nicely with the Rose Pine palette.
 
 ## 🔧 Development
 
 ### Syncing with Upstream
 
-This theme is kept in sync with the official Catppuccin theme using the `sync_theme.py` script. The script:
+This theme is kept in sync with the official Rose Pine Zed themes using the `sync_theme.py` script. The script:
 
-1. Fetches the latest theme from the official Catppuccin repository
-2. Applies blur-specific overrides defined in `theme_overrides.py`
-3. Generates the final theme file
+1. Fetches the latest Dawn, Rose Pine, and Moon themes from the official Rose Pine Zed repository
+2. Generates the custom dusk variant (deep dark backgrounds + Rose Pine accent palette)
+3. Applies blur-specific overrides defined in `theme_overrides.py` for each blur level
+4. Generates the final theme file at `themes/rose-pine-blur.json`
 
-**Important**: Do not manually edit `themes/catppuccin-blur.json` directly. All customizations should be made in the `theme_overrides.py` file. Any manual changes to the JSON file will be overwritten when the sync script runs.
+**Important**: Do not manually edit `themes/rose-pine-blur.json` directly. All customizations should be made in the `theme_overrides.py` file. Any manual changes to the JSON file will be overwritten when the sync script runs.
 
 To update the theme:
 ```bash
@@ -95,12 +80,25 @@ python3 sync_theme.py
 
 ### Making Theme Customizations
 
-To customize the theme, edit the `THEME_OVERRIDES` dictionary in `theme_overrides.py`. Each variant (latte, iced_latte, frappe, macchiato, mocha, espresso) has its own set of overrides. For example:
+To customize the theme, edit the `BASE_THEME_OVERRIDES` dictionary in `theme_overrides.py`. Each variant (`dawn`, `rose_pine`, `moon`, `dusk`) has its own set of overrides. For example:
 
 ```python
-"latte": {
-    "background": "#f9fafcd7",
-    "panel.overlay_background": "#f9fafc",
+"rose_pine": {
+    "background": "#191724d7",
+    "panel.overlay_background": "#191724",
     # Add more overrides here
 }
 ```
+
+The transparency (alpha channel) for each blur level is applied automatically by `generate_theme_overrides_for_level()` based on the `BLUR_LEVELS` configuration at the top of the file.
+
+### Adjusting the Dusk variant
+
+The Dusk variant is generated by `make_dusk_theme()` in `sync_theme.py`. To change the dark background palette or any of its overrides, edit either:
+
+- `make_dusk_theme()` — for structural color overrides (backgrounds, borders) applied before blur
+- `BASE_THEME_OVERRIDES["dusk"]` in `theme_overrides.py` — for the blur-specific overrides
+
+## 📜 License
+
+See [LICENSE](LICENSE).

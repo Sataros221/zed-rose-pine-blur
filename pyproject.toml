@@ -1,0 +1,10 @@
+[project]
+name = "zed-rose-pine-blur"
+version = "0.1.0"
+description = "Rose Pine themes with blur for Zed"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jsonschema>=4.26.0",
+    "requests>=2.34.2",
+]
