@@ -1,7 +1,7 @@
 id = "rose-pine-blur"
 name = "Rose Pine Blur"
 schema_version = 1
-version = "0.2.0"
+version = "1.0.0"
 authors = ["Sataros221 (Javier Valdés González) <sataros221@gmail.com>"]
 description = "Rose Pine themes with blur"
 repository = "https://github.com/sataros221/zed-rose-pine-blur"
