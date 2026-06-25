@@ -84,7 +84,7 @@ jobs:
         uses: huacnlee/zed-extension-action@v1
         with:
           extension-name: rose-pine-blur
-          push-to: jenslys/extensions
+          push-to: Sataros221/zed-extensions
           tag-name: v${{ steps.version.outputs.new_version }}
         env:
           COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
